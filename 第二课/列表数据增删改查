@@ -1,0 +1,30 @@
+#添加数据
+breakfast = ["牛奶", "鸡蛋", "面包", "水果"]
+breakfast.append("包子") #append()在列表末尾添加数据
+print(breakfast)
+breakfast.insert(1, "豆浆") #insert()在指定位置添加数据
+print(breakfast)
+print(breakfast+["油条","粥"])
+#删除数据
+breakfast.remove("水果")
+print(breakfast)
+breakfast.clear()
+print(breakfast)
+
+#查找数据
+breakfast = ["牛奶", "鸡蛋", "面包", "水果"]
+print(breakfast[0])
+print(breakfast[0:3])  #切片 左闭右开
+#修改数据
+breakfast[0] = "豆浆"
+print(breakfast)
+#内置函数
+print(len(breakfast))  #len()计算列表长度
+print(breakfast.count("鸡蛋"))  #count()计算列表中某个元素出现的次数
+
+list1 = [1, 10, 3, 8, 15]
+print(max(list1))  #max()求列表中最大值
+print(min(list1))  #min()求列表中最小值
+print(sum(list1))  #sum()求列表中所有元素的和
+print(sorted(list1))  #sorted()对列表从小到大排序
+print(sorted(list1, reverse=True))  #sorted()对列表从大到小排序

@@ -1,0 +1,10 @@
+#条件一and条件二and条件三
+#条件一or条件二or条件三
+#not条件 非
+#优先级 not>and>or
+
+year=int(input("请输入年份："))
+if year%4==0 and year%100!=0 or year%400==0:
+    print(year,"是闰年")
+else:
+    print(year,"不是闰年")

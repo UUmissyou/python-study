@@ -1,0 +1,7 @@
+name=input("请输入你的姓名")
+print("姓名",name)
+
+length=input("请输入长方形长度")
+width=input("请输入长方形宽度")
+area=int(length)*int(width)
+print("长方形面积为",area)     #   为"+str(area)

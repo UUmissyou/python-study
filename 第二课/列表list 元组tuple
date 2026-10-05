@@ -1,0 +1,19 @@
+food=["薯片","可乐","炸鸡","汉堡","奶茶"]
+print(food)
+print(food[2])
+print(food[-3])
+print(food.index("炸鸡")) #index()索引单个位置 
+
+students=["小明","小红","小刚","小李"]
+print(students)
+print(students.index("小红"))  #index()索引单个位置
+print(students[1])
+
+#tuple元组 不可更改 增加 减少数据
+tuple1 = (1, 2, 3, 4, 5)
+print(tuple1)
+
+tuple2 = ("小明",)
+print(type(tuple2))
+tuple2 = ("小明")
+print(type(tuple2))

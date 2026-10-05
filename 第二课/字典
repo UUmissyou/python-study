@@ -1,0 +1,16 @@
+idcard={
+    "name":"李宇",
+    "sex":"女",
+    (3,4):"钟楼区"
+}     
+#键:值 其中键只能用不可变数据类型
+print(idcard["name"])
+idcard["name"]="魏梦宇"  #修改字典中键对应的值
+print(idcard)
+idcard["age"]=18  #在字典中添加键值对
+print(idcard)
+del idcard["age"]  #删除字典中键值对
+print(idcard)
+print(idcard.keys())  #keys()获取字典中所有的键
+print(idcard.values())  #values()获取字典中所有的值
+print("name" in idcard)  #in判断字典中是否存在某个键

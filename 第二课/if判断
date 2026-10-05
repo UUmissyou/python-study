@@ -1,0 +1,12 @@
+if True:      # money=int(input("请输入你的金钱"))     if money>=20:
+    print("条件为真")
+else:
+    print("条件为假")   
+#   ==为相等 ！=为不等于
+
+
+price=float(input("请输入消费金额"))
+if price>=100:
+    print("打九折后金额为",price*0.9)
+else:
+    print("不打折，金额为",price)

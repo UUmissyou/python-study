@@ -1,0 +1,4 @@
+text = "Hello, World!"
+print(len(text))  # 输出字符串的长度
+
+#int整型 float浮点型 str字符串型 bool布尔型 None空类型

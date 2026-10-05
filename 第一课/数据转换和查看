@@ -1,0 +1,20 @@
+print(type("hello"))
+print(type(10))
+#type()函数可以用来查看数据类型    终端输入python回车可不用加print()，直接输入type("hello")或type(10)即可查看数据类型
+#ctrl+~可快捷调出终端，ctrl+shift+~可新建终端
+
+print(str(100))  #将整数100转换为字符串类型
+print(str(None))  #将None转换为字符串类型
+print(bool(0))  #将整数0转换为布尔类型，结果为False   0 None 空字符串 [] () {} 都是False，其他都是True
+print(bool(1))  #将整数1转换为布尔类型，结果为True
+
+#int()函数可以将字符串或浮点数转换为整数类型
+print(int(1.2))  #将浮点数1.2转换为整数类型1
+#float()函数可以将字符串或整数转换为浮点数类型
+print(float("3.14"))  #将字符串"3.14"转换为浮点数类型 1->1.0
+print(int(True))  #将布尔类型True转换为整数类型1  Flase->0
+print(float(True))  #将布尔类型True转换为浮点数类型1.0
+
+#隐式转换
+print(1 + 2.0)  #整数1和浮点数2.0相加，结果为浮点数3.0
+print(1 + True)  #整数1和布尔类型True相加，结果为整数2

@@ -1,0 +1,28 @@
+#elif
+
+# if 条件一:
+#     if 条件二:
+#     满足条件执行代码一
+#     else:
+#         不满足条件执行代码二
+# else:
+#     不满足条件执行代码三
+
+score=int(input("请输入成绩："))
+if score>=60:
+    if score>=90:
+        print("成绩优秀")
+    elif score>=80:
+        print("成绩良好")
+    elif score>=70:
+        print("成绩中等")
+    elif score>=60:
+        print("成绩及格")
+else:
+    print("成绩不及格")
+
+year=int(input("请输入年份："))
+if year%4==0 and year%100!=0 or year%400==0:
+    print(year,"是闰年")
+else:
+    print(year,"不是闰年")
